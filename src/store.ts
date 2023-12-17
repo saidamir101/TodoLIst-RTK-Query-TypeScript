@@ -1,4 +1,7 @@
-import { configureStore,getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+// getDefaultMiddleware import бояд бкни
+
+
 import counter from "./redusers/counterSlice" 
 import { todos } from "./zapros/todos";
 export const store=configureStore({
